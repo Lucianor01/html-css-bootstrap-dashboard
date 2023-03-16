@@ -50,11 +50,11 @@
                                 <i class="fa-solid fa-ellipsis-vertical"></i>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item dropstart">
                             <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa-solid fa-bell c-orange"></i>
                             </a>
-                            <ul class="dropdown-menu d-none">
+                            <ul class="dropdown-menu position-absolute">
                                 <li><a class="dropdown-item" href="#">Profilo</a></li>
                                 <li><a class="dropdown-item" href="#">Fatturazione</a></li>
                                 <li><a class="dropdown-item" href="#">Logout</a></li>
@@ -97,7 +97,7 @@
             </aside>
 
             <!-- SECTION CONTENT MAIN -->
-            <section class="section-main overflow-auto">
+            <section class="section-main overflow-auto bg-body-tertiary">
 
                 <!-- SECTION 1 TOP -->
                 <section class="bg-primary container-fluid">
@@ -196,15 +196,15 @@
                 </section>
 
                 <!-- SECTION 2 BOT -->
-                <section class="bg-body-tertiary border">
+                <section class="d-lg-flex">
                     <!-- CONTAINER LEFT -->
                     <div class="container-fluid pt-4">
                         <!-- TABLE -->
                         <div class="border rounded">
-                            <div class="border p-2 bg-body-tertiary">
+                            <div class="border p-2 bg-body-secondary">
                                 <h3>Prossime classi</h3>
                             </div>
-                            <table class="table table-hover mb-0">
+                            <table class="table table-hover mb-0 bg-white">
                                 <thead>
                                     <tr>
                                         <th scope="col">Nome</th>
@@ -216,123 +216,137 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td scope="row" class="w-40"><img class="img-table me-2"
+                                        <td scope="row" class="col-3 col-md-4 col-xl-6"><img class="img-table me-2"
                                                 src="./assets/img/class-avatar.jpg" alt="Avatar table">Classe 75</td>
-                                        <td class="text-center d-none d-md-table-cell" class="text-center">15 Feb 2021</td>
+                                        <td class="text-center d-none d-md-table-cell" class="text-center">15 Feb 2021
+                                        </td>
                                         <td class="text-center d-none d-md-table-cell" class="text-center">20%</td>
-                                        <td class="text-center" class="text-center"><span
-                                                class="badge text-bg-success">Done</span></td>
-                                        <td class="text-center d-flex justify-content-center">
-                                            <button type="button" class="btn btn-outline-secondary me-1">
+                                        <td class="text-center"><span class="badge text-bg-success">Done</span></td>
+                                        <td class="text-center">
+                                            <button type="button"
+                                                class="btn btn-outline-secondary me-md-1 mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-pen"></i>
                                             </button>
-                                            <button type="button" class="btn btn-outline-secondary">
+                                            <button type="button" class="btn btn-outline-secondary mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-trash"></i>
                                             </button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td scope="row" class="w-40"><img class="img-table me-2"
+                                        <td scope="row" class="col-3 col-md-4 col-xl-6"><img class="img-table me-2"
                                                 src="./assets/img/class-avatar.jpg" alt="Avatar table">Classe 76</td>
                                         <td class="text-center d-none d-md-table-cell">16 Feb 2021</td>
                                         <td class="text-center d-none d-md-table-cell">20%</td>
                                         <td class="text-center"><span class="badge text-bg-success">Done</span></td>
-                                        <td class="text-center d-flex justify-content-center">
-                                            <button type="button" class="btn btn-outline-secondary me-1">
+                                        <td class="text-center">
+                                            <button type="button"
+                                                class="btn btn-outline-secondary me-md-1 mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-pen"></i>
                                             </button>
-                                            <button type="button" class="btn btn-outline-secondary">
+                                            <button type="button" class="btn btn-outline-secondary mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-trash"></i>
                                             </button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td scope="row" class="w-40"><img class="img-table me-2"
+                                        <td scope="row" class="col-3 col-md-4 col-xl-6"><img class="img-table me-2"
                                                 src="./assets/img/class-avatar.jpg" alt="Avatar table">Classe 77</td>
                                         <td class="text-center d-none d-md-table-cell">17 Feb 2021</td>
                                         <td class="text-center d-none d-md-table-cell">20%</td>
                                         <td class="text-center"><span
-                                                class="badge rounded-pill text-bg-warning text-light">Process</span></td>
-                                        <td class="text-center d-flex justify-content-center">
-                                            <button type="button" class="btn btn-outline-secondary me-1">
+                                                class="badge rounded-pill text-bg-warning text-light">Process</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <button type="button"
+                                                class="btn btn-outline-secondary me-md-1 mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-pen"></i>
                                             </button>
-                                            <button type="button" class="btn btn-outline-secondary">
+                                            <button type="button" class="btn btn-outline-secondary mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-trash"></i>
                                             </button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td scope="row" class="w-40"><img class="img-table me-2"
+                                        <td scope="row" class="col-3 col-md-4 col-xl-6"><img class="img-table me-2"
                                                 src="./assets/img/class-avatar.jpg" alt="Avatar table">Classe 78</td>
                                         <td class="text-center d-none d-md-table-cell">18 Feb 2021</td>
                                         <td class="text-center d-none d-md-table-cell">20%</td>
                                         <td class="text-center"><span class="badge text-bg-success">Done</span></td>
-                                        <td class="text-center d-flex justify-content-center">
-                                            <button type="button" class="btn btn-outline-secondary me-1">
+                                        <td class="text-center">
+                                            <button type="button"
+                                                class="btn btn-outline-secondary me-md-1 mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-pen"></i>
                                             </button>
-                                            <button type="button" class="btn btn-outline-secondary">
+                                            <button type="button" class="btn btn-outline-secondary mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-trash"></i>
                                             </button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td scope="row" class="w-40"><img class="img-table me-2"
+                                        <td scope="row" class="col-3 col-md-4 col-xl-6"><img class="img-table me-2"
                                                 src="./assets/img/class-avatar.jpg" alt="Avatar table">Classe 79</td>
                                         <td class="text-center d-none d-md-table-cell">19 Feb 2021</td>
                                         <td class="text-center d-none d-md-table-cell">20%</td>
-                                        <td class="text-center"><span class="badge rounded-pill text-bg-danger">Failed</span></td>
-                                        <td class="text-center d-flex justify-content-center">
-                                            <button type="button" class="btn btn-outline-secondary me-1">
+                                        <td class="text-center"><span
+                                                class="badge rounded-pill text-bg-danger">Failed</span></td>
+                                        <td class="text-center">
+                                            <button type="button"
+                                                class="btn btn-outline-secondary me-md-1 mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-pen"></i>
                                             </button>
-                                            <button type="button" class="btn btn-outline-secondary">
+                                            <button type="button" class="btn btn-outline-secondary mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-trash"></i>
                                             </button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td scope="row" class="w-40"><img class="img-table me-2"
-                                                src="./assets/img/class-avatar.jpg" alt="Avatar table">Classe 80</td>
+                                        <td scope="row" class="col-3 col-md-4 col-lg-3 col-xl-6"><img
+                                                class="img-table me-2" src="./assets/img/class-avatar.jpg"
+                                                alt="Avatar table">Classe 80</td>
                                         <td class="text-center d-none d-md-table-cell">20 Feb 2021</td>
                                         <td class="text-center d-none d-md-table-cell">20%</td>
                                         <td class="text-center"><span class="badge text-bg-success">Done</span></td>
-                                        <td class="text-center d-flex justify-content-center">
-                                            <button type="button" class="btn btn-outline-secondary me-1">
+                                        <td class="text-center">
+                                            <button type="button"
+                                                class="btn btn-outline-secondary me-md-1 mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-pen"></i>
                                             </button>
-                                            <button type="button" class="btn btn-outline-secondary">
+                                            <button type="button" class="btn btn-outline-secondary mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-trash"></i>
                                             </button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td scope="row" class="w-40"><img class="img-table me-2"
-                                                src="./assets/img/class-avatar.jpg" alt="Avatar table">Classe 81</td>
+                                        <td scope="row" class="col-3 col-md-4 col-lg-3 col-xl-6"><img
+                                                class="img-table me-2" src="./assets/img/class-avatar.jpg"
+                                                alt="Avatar table">Classe 81</td>
                                         <td class="text-center d-none d-md-table-cell">21 Feb 2021</td>
                                         <td class="text-center d-none d-md-table-cell">20%</td>
-                                        <td class="text-center"><span class="badge rounded-pill text-bg-danger">Failed</span></td>
-                                        <td class="text-center d-flex justify-content-center">
-                                            <button type="button" class="btn btn-outline-secondary me-1">
+                                        <td class="text-center"><span
+                                                class="badge rounded-pill text-bg-danger">Failed</span></td>
+                                        <td class="text-center">
+                                            <button type="button"
+                                                class="btn btn-outline-secondary me-md-1 mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-pen"></i>
                                             </button>
-                                            <button type="button" class="btn btn-outline-secondary">
+                                            <button type="button" class="btn btn-outline-secondary mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-trash"></i>
                                             </button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td scope="row" class="w-40"><img class="img-table me-2"
-                                                src="./assets/img/class-avatar.jpg" alt="Avatar table">Classe 82</td>
+                                        <td scope="row" class="col-3 col-md-4 col-lg-3 col-xl-6"><img
+                                                class="img-table me-2" src="./assets/img/class-avatar.jpg"
+                                                alt="Avatar table">Classe 82</td>
                                         <td class="text-center d-none d-md-table-cell">22 Feb 2021</td>
                                         <td class="text-center d-none d-md-table-cell">20%</td>
                                         <td class="text-center"><span class="badge text-bg-success">Done</span></td>
-                                        <td class="text-center d-flex justify-content-center ">
-                                            <button type="button" class="btn btn-outline-secondary me-1">
+                                        <td class="text-center">
+                                            <button type="button"
+                                                class="btn btn-outline-secondary me-md-1 mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-pen"></i>
                                             </button>
-                                            <button type="button" class="btn btn-outline-secondary">
+                                            <button type="button" class="btn btn-outline-secondary mt-1 mt-sm-0">
                                                 <i class="fa-solid fa-trash"></i>
                                             </button>
                                         </td>
@@ -343,79 +357,107 @@
                         <!-- FAQ -->
                         <div class="border rounded mt-3">
                             <div class="border">
-                                <div class="p-2 bg-body-tertiary border">
-                                    <h3>F.A.Q</h3>
+                                <div class="p-2 bg-body-secondary border">
+                                    <h3>F.A.Q.</h3>
                                 </div>
                                 <div class="accordion accordion-flush" id="accordionExample">
                                     <div class="accordion-item">
-                                      <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                          Come aggiungere un nuovo studente?
-                                        </button>
-                                      </h2>
-                                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            Clicca sul + in alto nella sezione blu.
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne">
+                                                Come aggiungere un nuovo studente?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Clicca sul + in alto nella sezione blu.
+                                            </div>
                                         </div>
-                                      </div>
                                     </div>
                                     <div class="accordion-item">
-                                      <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                          Come posso accedere alle informazioni del mio account?
-                                        </button>
-                                      </h2>
-                                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                          Clicca sull'icona della campanella.
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                Come posso accedere alle informazioni del mio account?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Clicca sull'icona della campanella.
+                                            </div>
                                         </div>
-                                      </div>
                                     </div>
                                     <div class="accordion-item">
-                                      <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                          Posso usare questa dashboard da mobile?
-                                        </button>
-                                      </h2>
-                                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                          Certo puoi usare questa dashboard da mobile
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                                Posso usare questa dashboard da mobile?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Certo puoi usare questa dashboard da mobile
+                                            </div>
                                         </div>
-                                      </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- CONTAINER RIGHT -->
-                    <div class="container-fluid pt-4">
+                    <div class="container-fluid pt-4 col-lg-4">
                         <!-- TODO -->
                         <div class="border rounded">
-                            <div class="p-2 bg-body-tertiary border">
+                            <div class="p-2 bg-body-secondary border">
                                 <h3>Todo</h3>
                             </div>
-                            <div class="container pt-3 bg-body">
+                            <div class="container py-3 bg-body">
                                 <ul class="list-group">
                                     <li class="list-group-item">
-                                      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckboxStretched">
-                                      <label class="form-check-label stretched-link" for="firstCheckboxStretched">Kickoff nuove classi</label>
+                                        <input class="form-check-input me-1" type="checkbox" value=""
+                                            id="firstCheckboxStretched">
+                                        <label class="form-check-label stretched-link"
+                                            for="firstCheckboxStretched">Kickoff nuove classi</label>
                                     </li>
                                     <li class="list-group-item">
-                                      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckboxStretched">
-                                      <label class="form-check-label stretched-link" for="secondCheckboxStretched">Lezione su Bootstrap 5 in classe #75</label>
+                                        <input class="form-check-input me-1" type="checkbox" value=""
+                                            id="secondCheckboxStretched">
+                                        <label class="form-check-label stretched-link"
+                                            for="secondCheckboxStretched">Lezione su Bootstrap 5 in classe #75</label>
                                     </li>
                                     <li class="list-group-item">
-                                      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckboxStretched">
-                                      <label class="form-check-label stretched-link" for="thirdCheckboxStretched">Controllare username github studenti</label>
+                                        <input class="form-check-input me-1" type="checkbox" value=""
+                                            id="thirdCheckboxStretched">
+                                        <label class="form-check-label stretched-link"
+                                            for="thirdCheckboxStretched">Controllare username github studenti</label>
                                     </li>
                                 </ul>
                             </div>
                         </div>
 
                         <!-- UTENTI ATTIVI -->
-                        <div class="border rounded mt-4 container-fluid bg-body">
-                            <div class="p-4 ">
-                                <img class="w-100 border rounded d-block" src="./assets/img/stats.jpeg" alt="Stats">
+                        <div class="border rounded mt-4 pb-3 container-fluid bg-body mb-4">
+                            <div class="border rounded rounded-bottom-0 mt-3 pb-3">
+                                <img class="w-100  rounded d-block" src="./assets/img/stats.jpeg" alt="Stats">
+                                <h4 class="p-2">Utenti attivi</h4>
+                                <span class="px-2 d-block">Lista degli utenti attivi in piattaforma nell'ultimo
+                                    mese</span>
+                            </div>
+                            <div class="border border-top-0">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Gennaio: 1200</li>
+                                    <li class="list-group-item">Febbraio: 800</li>
+                                    <li class="list-group-item">Marzo: 1500</li>
+                                    <li class="list-group-item">
+                                        <a href="#">Visualizza report approfondito</a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
