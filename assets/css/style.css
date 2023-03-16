@@ -61,11 +61,22 @@ main .offcanvas.offcanvas-end{
     font-size: 15px;
 }
 
+.img-table{
+    width: 20px;
+}
+
+.w-40{
+    width: 40%;
+}
+
 @media screen and (min-width: 992px){
 
     #aside button {
         width: 110px;
     }
 
-    
+    main .offcanvas.offcanvas-end{
+        width: 50%;
+    }
+
 }
